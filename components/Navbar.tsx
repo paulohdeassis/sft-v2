@@ -98,12 +98,12 @@ export default function Navbar({baseUrl}:Props) {
                   {services.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center w-full p-4 text-red-100 text-sm leading-6  hover:bg-light-purple"
+                      className="group relative flex items-center w-full p-4 text-white text-sm leading-6  hover:bg-light-purple"
                     >
                     
                       <div className="flex-auto">
-                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)}
-                        className="block w-full text-lg font-semibold"> 
+                        <button   type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)}
+                        className="text-left block w-full text-lg font-semibold"> 
                           {item.name}
                           <span className="absolute inset-0" />
                         </button>
@@ -144,11 +144,11 @@ export default function Navbar({baseUrl}:Props) {
                   {niches.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center w-full p-4 text-red-300 text-sm leading-6 hover:bg-light-purple"
+                      className="group relative flex items-center w-full p-4 text-white text-sm leading-6 hover:bg-light-purple"
                     >
                     
                       <div className="flex-auto">
-                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)} className="block w-full text-lg font-semibold">
+                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)} className="block w-full text-left text-lg font-semibold">
                           {item.name}
                           <span className="absolute inset-0" />
                         </button>
