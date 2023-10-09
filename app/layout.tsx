@@ -20,6 +20,7 @@ export default function RootLayout({
   
   return (
     <QueryClientProvider client={queryCLient}>
+      {/* @ts-ignore  */}
        <userContext.Provider value={{userInfo, setUserInfo}}
         >
         <html>

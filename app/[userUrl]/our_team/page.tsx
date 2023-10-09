@@ -7,8 +7,9 @@ import userContext from '@/contexts/userContext'
 import React, { useContext } from 'react'
 
 export default function Page() {
+  // @ts-ignore 
   const { userInfo } = useContext(userContext)
-  console.log(userInfo)
+
   return (
     <>
       <TeamHero/>

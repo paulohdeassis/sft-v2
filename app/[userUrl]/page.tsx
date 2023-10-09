@@ -7,21 +7,17 @@ import StepsSection from '@/components/StepsSection'
 import PartnersSection from '@/components/PartnersSection'
 import SocialProofSection from '@/components/SocialProofSection'
 import WhoWorkedSection from '@/components/WhoWorkedSection'
-import { useFetch } from '@/hooks/useFecth'
 import userContext from '@/contexts/userContext'
 
 
 
-export default function UserPage(context: any) {
-  const { userInfo, setUserInfo} = useContext(userContext)
-  const { params: { userUrl } } = context  
-  const { data } = useFetch(userUrl)
-  const userData = data?.data[0]
-  
-  setUserInfo(userData)
+export default function UserPage() {
+  // @ts-ignore 
+  const { userInfo } = useContext(userContext)
+
   return (
     <>
-      <MainHero phoneNumber={userData?.Phone} />
+      <MainHero phoneNumber={userInfo?.Phone} />
       <PartnersSection />
       <NumbersSection/>
       <StepsSection />

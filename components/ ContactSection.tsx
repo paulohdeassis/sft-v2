@@ -9,12 +9,12 @@ export default function  ContactSection() {
     <div className="contact_txt">
         <h2>Contact Us</h2>
         <p>
-          Don't hesitate to reach out to us for any 
+          Don’t hesitate to reach out to us for any 
           assistance or inquiries. We value your needs
           and are dedicated to providing exceptional support. 
           Our team is ready to listen, understand, and work 
           with you to achieve your goals. Contact us today, 
-          and let's embark on a collaborative journey to bring
+          and let’s embark on a collaborative journey to bring
           your vision to life.
         </p>
 

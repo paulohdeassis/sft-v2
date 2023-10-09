@@ -1,6 +1,6 @@
 "use client"
 
-// import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
@@ -50,7 +50,7 @@ export default function Navbar({baseUrl}:Props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isServiceShowing, setIsServiceShowing] = useState(false)
   const [isNicheShowing, setIsNicheShowing] = useState(false)
-  // const router = useRouter()
+  const router = useRouter()
 
   return (
     <header className="bg-main-purple">
@@ -98,15 +98,15 @@ export default function Navbar({baseUrl}:Props) {
                   {services.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center w-full p-4 text-white text-sm leading-6  hover:bg-light-purple"
+                      className="group relative flex items-center w-full p-4 text-red-100 text-sm leading-6  hover:bg-light-purple"
                     >
                     
                       <div className="flex-auto">
-                        <Link  href={`${baseUrl}${item.href}`}   replace
+                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)}
                         className="block w-full text-lg font-semibold"> 
                           {item.name}
                           <span className="absolute inset-0" />
-                        </Link>
+                        </button>
                       </div>
                     </div>
                   ))}
@@ -144,14 +144,14 @@ export default function Navbar({baseUrl}:Props) {
                   {niches.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center w-full p-4 text-white text-sm leading-6 hover:bg-light-purple"
+                      className="group relative flex items-center w-full p-4 text-red-300 text-sm leading-6 hover:bg-light-purple"
                     >
                     
                       <div className="flex-auto">
-                        <a  href={`${baseUrl}${item.href}`}  className="block w-full text-lg font-semibold">
+                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)} className="block w-full text-lg font-semibold">
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </button>
                       </div>
                     </div>
                   ))}
@@ -171,9 +171,9 @@ export default function Navbar({baseUrl}:Props) {
         <div className="fixed inset-0 z-10 " />
         <Dialog.Panel className="fixed inset-y-0 le-0 z-10 w-full overflow-y-auto  bg-main-purple px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href={baseUrl} className="-m-1.5 p-1.5">
-            <Image src='/mg-media.svg' className='w-auto h-10 sm:h-8' alt='mg media logo' height={100} width={100} />
-            </a>
+            {/* <a href={baseUrl} className="-m-1.5 p-1.5"> */}
+            <Image  onClick={() => router.replace(`${baseUrl}`)} src='/mg-media.svg' className='w-auto h-10 sm:h-8' alt='mg media logo' height={100} width={100} />
+            {/* </a> */}
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-white"
@@ -238,13 +238,14 @@ export default function Navbar({baseUrl}:Props) {
                 </Disclosure>
 
                 <Link
-                href="#"
+                href={`${baseUrl}/our_team`}
+                replace={true}
                 className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-light-purple"
                 >
                 OUR TEAM
                 </Link>
                 <Link
-                href="#"
+                href="#footer"
                 className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-light-purple"
                 >
                 CONTACT US
