@@ -1,0 +1,22 @@
+{
+  "/_not-found": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/[userUrl]/page": "/[userUrl]",
+  "/[userUrl]/ others/page": "/[userUrl]/ others",
+  "/[userUrl]/car_dealerships/page": "/[userUrl]/car_dealerships",
+  "/[userUrl]/beauty_specialists/page": "/[userUrl]/beauty_specialists",
+  "/[userUrl]/funnels/page": "/[userUrl]/funnels",
+  "/[userUrl]/dentists/page": "/[userUrl]/dentists",
+  "/[userUrl]/facebook_ads/page": "/[userUrl]/facebook_ads",
+  "/[userUrl]/ecommerce_owners/page": "/[userUrl]/ecommerce_owners",
+  "/[userUrl]/google_ads/page": "/[userUrl]/google_ads",
+  "/[userUrl]/google_my_business/page": "/[userUrl]/google_my_business",
+  "/[userUrl]/our_team/page": "/[userUrl]/our_team",
+  "/[userUrl]/insurance_brokers/page": "/[userUrl]/insurance_brokers",
+  "/[userUrl]/lading_pages/page": "/[userUrl]/lading_pages",
+  "/[userUrl]/lead_generation/page": "/[userUrl]/lead_generation",
+  "/[userUrl]/plastic_surgeons/page": "/[userUrl]/plastic_surgeons",
+  "/[userUrl]/real_estate_agents/page": "/[userUrl]/real_estate_agents",
+  "/[userUrl]/youtube_ads/page": "/[userUrl]/youtube_ads"
+}
