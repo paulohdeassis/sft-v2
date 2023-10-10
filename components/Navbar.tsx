@@ -22,7 +22,7 @@ const services = [
   { name: 'Google Ads', href: '/google_ads',},
   { name: 'Google My Business',href: '/google_my_business',},
   { name: 'Youtube Ads',href: '/youtube_ads',},
-  { name: 'Lead Generation',href: '/lead_genertion',},
+  { name: 'Lead Generation',href: '/lead_generation',},
   { name: 'Landing Pages',href: '/landing_pages',},
   { name: 'Funnels', href: '/funnels',},
 ]
@@ -43,14 +43,15 @@ function classNames(...classes:String[]) {
 }
 
 interface Props{
-  baseUrl: string
+  routeBase: string
 }
 
-export default function Navbar({baseUrl}:Props) {
+export default function Navbar({routeBase}:Props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isServiceShowing, setIsServiceShowing] = useState(false)
   const [isNicheShowing, setIsNicheShowing] = useState(false)
   const router = useRouter()
+  const baseUrl = `/${routeBase}`
 
   return (
     <header className="bg-main-purple">
@@ -102,11 +103,10 @@ export default function Navbar({baseUrl}:Props) {
                     >
                     
                       <div className="flex-auto">
-                        <button   type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)}
-                        className="text-left block w-full text-lg font-semibold"> 
+                        <Link href={`${baseUrl}${item.href}`} className="text-left  w-full text-lg font-semibold"> 
                           {item.name}
                           <span className="absolute inset-0" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -148,10 +148,11 @@ export default function Navbar({baseUrl}:Props) {
                     >
                     
                       <div className="flex-auto">
-                        <button  type="button" onClick={() => router.replace(`${baseUrl}${item.href}`)} className="block w-full text-left text-lg font-semibold">
+                        <Link href={`${baseUrl}${item.href}`}
+                        className="block w-full  text-lg font-semibold">
                           {item.name}
                           <span className="absolute inset-0" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -201,7 +202,7 @@ export default function Navbar({baseUrl}:Props) {
                           <Disclosure.Button
                             key={item.name}
                             as="a"
-                            href={item.href}
+                            href={`${baseUrl}${item.href}`}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-light-purple"
                           >
                             {item.name}
@@ -226,7 +227,7 @@ export default function Navbar({baseUrl}:Props) {
                           <Disclosure.Button
                             key={item.name}
                             as="a"
-                            href={item.href}
+                            href={`${baseUrl}${item.href}`}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-5 text-white hover:bg-light-purple"
                           >
                             {item.name}

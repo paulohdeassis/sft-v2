@@ -20,7 +20,7 @@ export default function UserLayout({children, params}: {children: React.ReactNod
     return (
      
         <body>
-          <Navbar baseUrl={params.userUrl}/>
+          <Navbar routeBase={params.userUrl}/>
             {children}
           <Footer email={userInfo?.MG_Email} whatsapp={userInfo?.Phone} instagram={userInfo?.Instagram_URL}/>
         </body>
