@@ -77,7 +77,7 @@ export default function page() {
     
                 </div>
                 <div className="success_card">
-                <Image className='card_img' src="billionaire-tomorrow-.png" alt="billionaire tomorrow logo" height={100} width={100} />
+                <Image className='card_img' src="/billionaire-tomorrow-.png" alt="billionaire tomorrow logo" height={100} width={100} />
                     <h3>BILLIONAIRE TOMORROW</h3>
                     <p>High End Publication.</p>
     
@@ -89,7 +89,7 @@ export default function page() {
                 </div>
 
                 <div className="success_card">
-                <Image className='card_img' src="motor-hub.png" alt="motor hub logo" height={100} width={100} />
+                <Image className='card_img' src="/motor-hub.png" alt="motor hub logo" height={100} width={100} />
                     <h3>MOTOR HUB</h3>
                     <p>Caravans, Trailers, Cabins & Mini houses.</p>
         
