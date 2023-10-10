@@ -56,7 +56,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/ others/page-278511961dcce981.js"
+      "static/chunks/app/[userUrl]/ others/page-642ce1ab495fc278.js"
     ],
     "/[userUrl]/beauty_specialists/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -64,15 +64,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/beauty_specialists/page-82998b5c18dcb2fc.js"
-    ],
-    "/[userUrl]/car_dealerships/page": [
-      "static/chunks/webpack-b1ab7e057c4e1682.js",
-      "static/chunks/fd9d1056-5e8604959839bb85.js",
-      "static/chunks/864-45507c246fd8b3fb.js",
-      "static/chunks/main-app-ff08ccc3a830a0eb.js",
-      "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/car_dealerships/page-944cf1a6df950013.js"
+      "static/chunks/app/[userUrl]/beauty_specialists/page-cdbc1aab042ca330.js"
     ],
     "/[userUrl]/dentists/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -80,7 +72,15 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/dentists/page-023177a75b2892c4.js"
+      "static/chunks/app/[userUrl]/dentists/page-8ec3edd5b0327158.js"
+    ],
+    "/[userUrl]/car_dealerships/page": [
+      "static/chunks/webpack-b1ab7e057c4e1682.js",
+      "static/chunks/fd9d1056-5e8604959839bb85.js",
+      "static/chunks/864-45507c246fd8b3fb.js",
+      "static/chunks/main-app-ff08ccc3a830a0eb.js",
+      "static/chunks/964-73eaf3063936f042.js",
+      "static/chunks/app/[userUrl]/car_dealerships/page-7959892b7f69c4f5.js"
     ],
     "/[userUrl]/ecommerce_owners/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -88,7 +88,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/ecommerce_owners/page-e30e17acba94c801.js"
+      "static/chunks/app/[userUrl]/ecommerce_owners/page-b55b3c7cb3967f1f.js"
     ],
     "/[userUrl]/facebook_ads/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -96,7 +96,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/facebook_ads/page-bba73cc8d1d89297.js"
+      "static/chunks/app/[userUrl]/facebook_ads/page-5dc3daa91bac3a12.js"
     ],
     "/[userUrl]/funnels/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -104,15 +104,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/funnels/page-964ecc8832a4fb20.js"
-    ],
-    "/[userUrl]/google_ads/page": [
-      "static/chunks/webpack-b1ab7e057c4e1682.js",
-      "static/chunks/fd9d1056-5e8604959839bb85.js",
-      "static/chunks/864-45507c246fd8b3fb.js",
-      "static/chunks/main-app-ff08ccc3a830a0eb.js",
-      "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/google_ads/page-17bc97d1fe3ff2cc.js"
+      "static/chunks/app/[userUrl]/funnels/page-dd1c1cfcbf1aa78c.js"
     ],
     "/[userUrl]/google_my_business/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -120,7 +112,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/google_my_business/page-6c9f0fab498ee1f4.js"
+      "static/chunks/app/[userUrl]/google_my_business/page-8d4d85d71e7811c0.js"
     ],
     "/[userUrl]/insurance_brokers/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -128,7 +120,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/insurance_brokers/page-67962fedc69e9f33.js"
+      "static/chunks/app/[userUrl]/insurance_brokers/page-d195f9d30c4dc96d.js"
     ],
     "/[userUrl]/landing_pages/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -136,7 +128,15 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/landing_pages/page-ef94edcc3a3064bc.js"
+      "static/chunks/app/[userUrl]/landing_pages/page-19099fffc51354e7.js"
+    ],
+    "/[userUrl]/google_ads/page": [
+      "static/chunks/webpack-b1ab7e057c4e1682.js",
+      "static/chunks/fd9d1056-5e8604959839bb85.js",
+      "static/chunks/864-45507c246fd8b3fb.js",
+      "static/chunks/main-app-ff08ccc3a830a0eb.js",
+      "static/chunks/964-73eaf3063936f042.js",
+      "static/chunks/app/[userUrl]/google_ads/page-10fe048dd916bf78.js"
     ],
     "/[userUrl]/lead_generation/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -144,7 +144,7 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/lead_generation/page-b6c6d6fdca8afb84.js"
+      "static/chunks/app/[userUrl]/lead_generation/page-a67d79ff22b8aa24.js"
     ],
     "/[userUrl]/our_team/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -154,21 +154,13 @@
       "static/chunks/964-73eaf3063936f042.js",
       "static/chunks/app/[userUrl]/our_team/page-0acf4de4b7372576.js"
     ],
-    "/[userUrl]/real_estate_agents/page": [
-      "static/chunks/webpack-b1ab7e057c4e1682.js",
-      "static/chunks/fd9d1056-5e8604959839bb85.js",
-      "static/chunks/864-45507c246fd8b3fb.js",
-      "static/chunks/main-app-ff08ccc3a830a0eb.js",
-      "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/real_estate_agents/page-a81a77e0366ffdbf.js"
-    ],
     "/[userUrl]/plastic_surgeons/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
       "static/chunks/fd9d1056-5e8604959839bb85.js",
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/plastic_surgeons/page-9ecb03eafdd4cd2a.js"
+      "static/chunks/app/[userUrl]/plastic_surgeons/page-24b66522b1dae1a7.js"
     ],
     "/[userUrl]/youtube_ads/page": [
       "static/chunks/webpack-b1ab7e057c4e1682.js",
@@ -176,7 +168,15 @@
       "static/chunks/864-45507c246fd8b3fb.js",
       "static/chunks/main-app-ff08ccc3a830a0eb.js",
       "static/chunks/964-73eaf3063936f042.js",
-      "static/chunks/app/[userUrl]/youtube_ads/page-797677aafebff01e.js"
+      "static/chunks/app/[userUrl]/youtube_ads/page-331230e8765f7b07.js"
+    ],
+    "/[userUrl]/real_estate_agents/page": [
+      "static/chunks/webpack-b1ab7e057c4e1682.js",
+      "static/chunks/fd9d1056-5e8604959839bb85.js",
+      "static/chunks/864-45507c246fd8b3fb.js",
+      "static/chunks/main-app-ff08ccc3a830a0eb.js",
+      "static/chunks/964-73eaf3063936f042.js",
+      "static/chunks/app/[userUrl]/real_estate_agents/page-ddc4d8266eabd93f.js"
     ]
   }
 }
