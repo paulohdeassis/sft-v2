@@ -15,8 +15,15 @@ export default function UserLayout({children, params}: {children: React.ReactNod
   // @ts-ignore 
   const { userInfo , setUserInfo} = useContext(userContext)
   const {data} = useFetch(params.userUrl)
-  setUserInfo(data?.data[0])
-  console.log(data?.data[0])
+  const userData = {
+    Instagram_URL: data?.data[0].Instagram_URL,
+    MG_Email: data?.data[0].MG_Email,
+    MG_URL: data?.data[0].MG_URL,
+    Name: data?.data[0].Name,
+    Phone:  data?.data[0].Phone.replace('+','').split(" ").join(''),
+  }
+  setUserInfo(userData)
+  console.log(userData)
     return (
      
         <body>
