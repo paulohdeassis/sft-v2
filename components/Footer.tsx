@@ -11,6 +11,7 @@ interface Props {
 
 
 export default function Footer({email, whatsapp, instagram}: Props) {
+    const parsedWhatsapp = whatsapp?.replace('+','').split(" ").join('')
   return (
     <footer id='footer'>
     <div className="footer-background ">
@@ -29,7 +30,7 @@ export default function Footer({email, whatsapp, instagram}: Props) {
             <button type='button'>
                         <a  className='bg-white sm:w-full md:w-fit  flex justify-center
                         align-middle  py-4 px-6 rounded-full hover:scale-105' 
-                        href={`https://api.whatsapp.com/send?phone=${whatsapp}text=Hi`}>
+                        href={`https://api.whatsapp.com/send?phone=${parsedWhatsapp}text=Hi`}>
                                <BiLogoWhatsapp color='#25D366' size={28} />
                         <p  className='text-[#25D366] text-xl font-semibold pl-4'>WHATSAPP</p>
                         </a>

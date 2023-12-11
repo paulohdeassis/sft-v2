@@ -1,8 +1,6 @@
 {
-  "/[userUrl]/real_estate_agents/page": "app/[userUrl]/real_estate_agents/page.js",
-  "/[userUrl]/facebook_ads/page": "app/[userUrl]/facebook_ads/page.js",
-  "/[userUrl]/youtube_ads/page": "app/[userUrl]/youtube_ads/page.js",
-  "/[userUrl]/lead_generation/page": "app/[userUrl]/lead_generation/page.js",
-  "/[userUrl]/landing_pages/page": "app/[userUrl]/landing_pages/page.js",
-  "/[userUrl]/funnels/page": "app/[userUrl]/funnels/page.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/[userUrl]/page": "app/[userUrl]/page.js",
+  "/[userUrl]/our_team/page": "app/[userUrl]/our_team/page.js"
 }
