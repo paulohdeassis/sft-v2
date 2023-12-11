@@ -6,8 +6,9 @@ interface Props{
     phoneNumber: string
 }
 export default function MainHero({phoneNumber}: Props): JSX.Element  {
-    const parsedWhatsapp = phoneNumber?.replace('+','').split(" ").join('')
+   const parsedWhatsapp = phoneNumber?.replace('+','').split(" ").join('')
    const whatsappUrl = `https://api.whatsapp.com/send?phone=${parsedWhatsapp}&text=Hi`
+
   return (
     
    <section className="hero_container">
