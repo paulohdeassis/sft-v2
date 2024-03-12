@@ -18,7 +18,6 @@ export default function MembersSection({userName}: Props) {
             <h3>Founders</h3>
             <ul>
                 <li ><h4>Marcel Fernandes</h4></li>
-                <li ><h4>Carlos Verdugo</h4></li>
             </ul>
 
         </div>

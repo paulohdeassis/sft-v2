@@ -1,11 +1,5 @@
 {
   "/not-found": "app/not-found.js",
-<<<<<<< HEAD
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/[userUrl]/page": "app/[userUrl]/page.js",
-  "/[userUrl]/our_team/page": "app/[userUrl]/our_team/page.js"
-=======
   "/page": "app/page.js",
-  "/[userUrl]/page": "app/[userUrl]/page.js"
->>>>>>> c7a662032c26d73aeb6546201fd71acdce5a2fdc
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
