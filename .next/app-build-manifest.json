@@ -1,10 +1,15 @@
 {
   "pages": {
-    "/page": [
+    "/[userUrl]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/css/app/[userUrl]/page.css",
+      "static/chunks/app/[userUrl]/page.js"
+    ],
+    "/[userUrl]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[userUrl]/layout.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",

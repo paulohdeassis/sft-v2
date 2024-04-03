@@ -12,7 +12,7 @@ export const useFetch = (userUrl: string) => {
         }
       }
     
-      const url = `https://cms.celmedia.com.br/items/students?access_token=${token}&filter[MG_URL][_eq]=${userUrl}&fields=Name,Instagram_URL,MG_Email,MG_URL,Phone`
+      const url = `https://cms.celmedia.com.br/items/students?&filter[MG_URL][_eq]=${userUrl}&fields=Name,Instagram_URL,MG_Email,MG_URL,Phone`
       return useQuery({
             queryFn: async () =>{
             const  { data }  = await axios.get(url, config)
